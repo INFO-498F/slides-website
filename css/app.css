@@ -3,7 +3,10 @@ body {
 }
 
 .container {
-	background:rgba(255, 255, 255, 0.48);
+	background:rgba(255, 255, 255, 0.55);
+    border-radius:10px;
+    padding-bottom:10px;
+    margin-bottom:40px;
 }
 footer {
 	position:fixed;
@@ -29,6 +32,11 @@ footer .copyright {
 
 .description {
 	opacity:.5;
+}
+
+h1 {
+    text-align: center;
+    color: #807B7B;
 }
 
 h4 {
