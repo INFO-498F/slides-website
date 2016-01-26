@@ -279,7 +279,7 @@ salaries_2015 &lt;- salaries_2014 + runif(100, -5000, 10000)
 # Create a data.frame 'salaries' by combining these vectors 
 salaries &lt;- data.frame(employees, salaries_2014, salaries_2015)</code></pre></div></div>
 <div class="sl-block" data-block-type="code" style="width: 899px; height: 102px; left: 24px; top: 598px;" data-block-id="c5dfbf4b64bbc9d8e5a7d67621abbde1"><div class="sl-block-content fragment" style="z-index: 16; font-size: 132%;" data-fragment-index="3"><pre class="r"><code># Mutate to calculate raises
-salaries &lt;- mutate(salaries, raise = salaries_2015 &gt; salaries_2014
+salaries &lt;- mutate(salaries, raise = salaries_2015 &gt; salaries_2014)
 filter(salaries, raise==TRUE)</code></pre></div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 313px; height: auto;" data-block-id="eeece7a313545800c2b6028852e6bce1"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle">
 <h2>{exercise 2}</h2>
 </div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 34px; height: auto;" data-block-id="42c84b75b42dfc9c9f4104e990557b5f"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
